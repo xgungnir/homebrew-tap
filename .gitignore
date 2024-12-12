@@ -1,0 +1,32 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Homebrew test-bot output
+/logs/
+/bottles/
+*.bottle.tar.gz
+*.bottle.json
+
+# Ruby/Bundler specific
+/.bundle/
+/vendor/
+Gemfile.lock
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test files
+/coverage/
+.rspec_status
+
+# Temporary files
+*.orig
+*.rej
+*~ 
