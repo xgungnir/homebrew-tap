@@ -10,6 +10,14 @@ cask "siyuan-ce" do
 
   app "SiYuan.app"
 
+  postflight do
+    if Hardware::CPU.arm?
+      system_command "/usr/bin/xattr",
+        args: ["-c", "#{appdir}/SiYuan.app"],
+        sudo: false
+    end
+  end
+
   zap trash: [
     "~/.config/.siyuan",
     "~/Library/Application Support/SiYuan-Electron",
