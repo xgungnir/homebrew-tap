@@ -1,7 +1,7 @@
 cask "siyuan-ce" do
   arch arm: "-arm64"
 
-  version "3.1.18"
+  version "3.1.19"
 
   url "https://github.com/siyuan-community/siyuan/releases/download/v#{version}/siyuan-CE-v#{version}-mac#{arch}.dmg"
   name "SiYuan CE"
