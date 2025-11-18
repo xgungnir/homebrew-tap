@@ -1,5 +1,5 @@
 cask "font-maple-mono-nf-sc" do
-  version "7.3"
+  version "7.8"
 
   url "https://github.com/subframe7536/maple-font/releases/download/v#{version}/MapleMono-NF-CN-unhinted.zip"
   name "Maple Mono NF SC"
